@@ -1,30 +1,21 @@
 ![image](https://raw.githubusercontent.com/Pixelbite-CSS/.github/main/banner-yellow.png)
 
-### repository-name
- - What is this repository about, two short sentences. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Integer vulputate sem a nibh rutrum consequat. Nullam eget nisl.
+### docs
+ - This is a documentation of [Pixelbite's library](https://github.com/Pixelbite-CSS) where you can find many of the features of all versions, that were made
+ - You can edit or make more documentation in this repository
 
 #### Information
- - **Name:** repository-name
+ - **Name:** docs
  - **Version:** 1.0.0
- - **Website:** https://example.com
+ - **Website:** https://pixelbite-css.github.io
 
 #### Languages
- - Lorem ipsum
- - Excepteur sint
-
-#### Dependencies
- - Lorem ipsum
+ - English
+ - may more to come
 
 #### Download Content
  - **License:** [LICENSE](https://github.com/Pixelbite-CSS/template/blob/main/LICENSE) ([download](https://raw.githubusercontent.com/Pixelbite-CSS/template/main/LICENSE))
 
-#### Install
- - Installation via **nodejs** and **npm**
-```
-git clone https://github.com/example.git
-npm i
-npm start
-```
 #### Legal actions
  - Please, before using or cloning this project, read our [License Terms](https://github.com/Pixelbite-CSS/template/blob/main/LICENSE).
  - **By cloning, you are agreeing to the license and its intent.**
