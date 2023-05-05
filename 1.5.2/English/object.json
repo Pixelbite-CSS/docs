@@ -1,12 +1,104 @@
 [
-  {
-    "title": "Introduction",
-    "id": "1_Introduction",
-    "content": "1_Introduction"
-  },
-  {
-    "title": "Introduction",
-    "id": "1_Introduction",
-    "content": "1_Introduction"
-  }
+  [
+    {
+      "title": "Introduction",
+      "id": "1_1_Introduction"
+    },
+    {
+      "title": "How it works?",
+      "id": "1_2_How_it_works"
+    },
+    {
+      "title": "Initialization",
+      "id": "1_3_Initialization"
+    },
+    {
+      "title": "Optimization",
+      "id": "1_4_Optimization"
+    }
+  ],
+  [
+    {
+      "title": "Flex boxes",
+      "id": "2_1_Flex_boxes"
+    },
+    {
+      "title": "Size",
+      "id": "2_2_Size"
+    },
+    {
+      "title": "Padding",
+      "id": "2_3_Padding"
+    },
+    {
+      "title": "Colors",
+      "id": "2_4_Colors"
+    }
+  ],
+  [
+    {
+      "title": "Onclick href",
+      "id": "3_1_Onclick_href"
+    },
+    {
+      "title": "Toggle element",
+      "id": "3_2_Toggle_element"
+    },
+    {
+      "title": "Slider",
+      "id": "3_3_Slider"
+    },
+    {
+      "title": "Slideshow",
+      "id": "3_4_Slideshow"
+    },
+    {
+      "title": "Searchbar",
+      "id": "3_5_Searchbar"
+    },
+    {
+      "title": "Float input",
+      "id": "3_6_Float_input"
+    },
+    {
+      "title": "Loaders",
+      "id": "3_7_Loaders"
+    },
+    {
+      "title": "Close x",
+      "id": "3_8_Close_x"
+    }
+  ],
+  [
+    {
+      "title": "Responsibility",
+      "id": "4_1_Responsibility"
+    },
+    {
+      "title": "Dark mode",
+      "id": "4_2_Dark_mode"
+    },
+    {
+      "title": "Foreach",
+      "id": "4_3_Foreach"
+    }
+  ],
+  [
+    {
+      "title": "Colors",
+      "id": "5_1_Colors"
+    },
+    {
+      "title": "Fonts",
+      "id": "5_2_Fonts"
+    },
+    {
+      "title": "Variables",
+      "id": "5_3_Variables"
+    },
+    {
+      "title": "Components",
+      "id": "5_4_Components"
+    }
+  ]
 ]

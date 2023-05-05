@@ -8,13 +8,13 @@
  - **Name:** docs
  - **Version:** 1.0.0
  - **Website:** https://pixelbite-css.github.io
-
-#### Links
- - [1.5.2/English](./1.5.2/English)
-
+ 
 #### Languages
- - English
- - may more to come
+- [1.5.2](./1.5.2)
+    - [English](./1.5.2/English)
+    - ...
+- If you want your own language support, make sure to fork and create your own Directory
+
 
 #### Download Content
  - **License:** [LICENSE](https://github.com/Pixelbite-CSS/template/blob/main/LICENSE) ([download](https://raw.githubusercontent.com/Pixelbite-CSS/template/main/LICENSE))
