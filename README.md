@@ -1,6 +1,6 @@
 ![image](https://raw.githubusercontent.com/Pixelbite-CSS/.github/main/banner-yellow.png)
 
-### docs
+### docs-repo
  - This is a documentation of [Pixelbite's library](https://github.com/Pixelbite-CSS) where you can find many of the features of all versions, that were made
  - You can edit or make more documentation in this repository
 
