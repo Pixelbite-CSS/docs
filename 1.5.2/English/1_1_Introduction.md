@@ -15,4 +15,6 @@ Before using this library, please have in note that this library is open-source.
 ~~  Hello world
 ~~</div>
 ```
+<div class="bg-red50 w-100% p-24px">Hello world</div>
+
 To get better with how it works and how to use this **Framework**, please proceed to the _next chapter_.
