@@ -1,6 +1,6 @@
 ### Introduction
 Hello and welcome to [Pixelbite-CSS](https://pixelbite-css.github.io) library.
-**PixelbiteCSS** is _open-source_ library made for developers. This library is also very customizable, so everyone can make beautiful websites with ease, without using any external _CSS_ or *JavaScript* library themselves.
+**PixelbiteCSS** is open-source library made for developers. This library is also very customizable, so everyone can make beautiful websites with ease, without using any external _CSS_ or *JavaScript* library themselves.
 
 #### Versions
 - **Latest** - more complex, may contain most bugs
@@ -11,7 +11,7 @@ Hello and welcome to [Pixelbite-CSS](https://pixelbite-css.github.io) library.
 Before using this library, please have in note that this library is open-source. We are more than happy to hear from community. You can join development or edit this documentation in our [GitHub repository](https://github.com/Pixelbite-CSS/docs-repo).
 
 ```
-!~<div class=~'bg-red50 w-100% p-24px'~>
+!~<div class="~bg-red50 w-100% p-24px~">
 ~~  Hello world
 ~~</div>
 ```
