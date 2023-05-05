@@ -23,6 +23,12 @@ _For example:_
 ~~</div>
 ```
 <div class="flexMiddle flexCenter bg-info br-12px fw-900 fs-24px">Hello world</div>
+- **flexMiddle** - specifically made class
+- **flexCenter** - specifically made class
+- **bg** - replaces _background_ style
+- **br** - replaces _border-radius_ style
+- **fw** - replaces _font-weight_ style
+- **fs** - replaces _font-size_ style
 
 #### More complex example
 ```
@@ -49,3 +55,6 @@ _For example:_
         </div>
     </div>
 </div>
+- **min666:** - activates class after minimal size is 666px
+- **max666:** - activates class after minimal size is 666px
+- **dark:** - activates class if darkmode is activated
