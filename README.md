@@ -9,6 +9,9 @@
  - **Version:** 1.0.0
  - **Website:** https://pixelbite-css.github.io
 
+#### Links
+ - [1.5.2/English](./1.5.2/English)
+
 #### Languages
  - English
  - may more to come
