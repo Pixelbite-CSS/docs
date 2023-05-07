@@ -1,6 +1,7 @@
 ### How it works?
-This library work on one main loop, that's repeating. Every cycle of that loop, the loop goes through every element, and it's class. The classes that were checked then proceeds into a splitter, that splits them into a smaller chunks.
-_For example `border-1px-solid-primary` into `["border", "1px", "solid" "primary"]:_
+This library work on one main loop, that's repeating. Every cycle of that loop, the loop goes through every element, and it's class. The classes that were checked then proceeds into a splitter, that splits them into a smaller chunks.<br>
+<br>
+For example `border-1px-solid-primary` into `["border", "1px", "solid" "primary"]`:
 
 ```
 !~<div class="~border-1px-solid-primary~">
@@ -10,25 +11,39 @@ _For example `border-1px-solid-primary` into `["border", "1px", "solid" "primary
 <div class="border-1px-solid-primary">
     Hello world
 </div>
+<br>
+
 The **first split** is a __shortcut__, that is inside a variable `pixelbite.classes` and it gets added into the loop parser, that adds searched shortcut inside of `pixelbite.classes` the rest of splits.
 - The `primary` is a variable from `pixelbite.variables`, that is in **stylesheet root**
 
 #### Multiple classes
-Also, you can use multiple shortcuts inside an element.
-_For example:_
+Framework also has multiple class system. The main loop is taking all the classes from *right to left*, meaning that __most left__ class has the highest priority.<br>
+<br>
+You can make use of **flex-boxes** to create 
 
 ```
-!~<div class="~flexMiddle flexCenter bg-info br-12px fw-900 fs-24px~">
+~~<div class="
+!~    ~flexMiddle~
+!~    ~flexCenter~
+!~    ~bg-info~
+!~    ~br-12px~
+!~    ~fw-900~
+!~    ~fs-24px~
+!~    ~p-24px~
+~~">
 ~~    Hello world
 ~~</div>
 ```
-<div class="flexMiddle flexCenter bg-info br-12px fw-900 fs-24px">Hello world</div>
-- **flexMiddle** - specifically made class
-- **flexCenter** - specifically made class
-- **bg** - replaces _background_ style
-- **br** - replaces _border-radius_ style
-- **fw** - replaces _font-weight_ style
-- **fs** - replaces _font-size_ style
+<div class="flexMiddle flexCenter bg-info br-12px fw-900 fs-24px p-24px">Hello world</div>
+<br>
+
+- **~flexMiddle~** - flexbox class, that makes elements center horizontally
+- **~flexCenter~** - flexbox class, that makes elements center vertically
+- **~bg-info~** - replaces `background` to variable `info` color
+- **~br-12px~** - makes `border-radius` set to `12px`
+- **~fw-900~** - makes `font-weight` to `900`
+- **~fs-24px~** - makes `font-size` to `24px`
+- **~p-24px~** - makes `padding` around spaced with `24px`
 
 #### More complex example
 ```
@@ -55,6 +70,8 @@ _For example:_
         </div>
     </div>
 </div>
-- **min666:** - activates class after minimal size is 666px
-- **max666:** - activates class after minimal size is 666px
+<br>
+
+- **min666:** - activates class after **under 666px width**
+- **max666:** - activates class after **over 666px width**
 - **dark:** - activates class if darkmode is activated
