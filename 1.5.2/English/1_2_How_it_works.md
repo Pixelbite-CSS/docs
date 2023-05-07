@@ -72,6 +72,6 @@ You can make use of **flex-boxes** to create
 </div>
 <br>
 
-- **min666:** - activates class after **under 666px width**
-- **max666:** - activates class after **over 666px width**
-- **dark:** - activates class if darkmode is activated
+- **~min666:~** - activates class after `under 666px width`
+- **~max666:~** - activates class after `over 666px width`
+- **~dark:~** - activates class if `darkmode` is activated
