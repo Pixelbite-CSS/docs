@@ -34,7 +34,7 @@ To use these classes, simply add them to the relevant HTML element, like this:
 These classes are:
 - **~flexDirection~** - that replaces `flex-direction`
 - **~flexWrap~** - that replaces `flex-wrap`
-- **~flexItems~** - that replaces `align-items`
+- **~flexItems~** - that replaces `justify-items`
 - **~flexContent~** - that replaces `align-content`
 - **~flexJustifyContent~** - that replaces `justify-content`
 - **~flexAlignItems~** - that replaces `align-items`
