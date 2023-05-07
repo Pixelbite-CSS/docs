@@ -6,7 +6,7 @@ If you want to start using Pixelbite-CSS in your project, you can proceed to the
 
 #### Recommendation before usage
 
-Before using this library, it's important to note that it's open-source, so the developers welcome community contributions and feedback. If you'd like to join development or edit the documentation, you can do so in their [GitHub repository](https://github.com/Pixelbite-CSS/docs-repo). <br>
+Before using this library, it's important to note that it's open-source, so the developers welcome community contributions and feedback. If you'd like to join development or edit the documentation, you can do so in our [GitHub repository](https://github.com/Pixelbite-CSS/docs-repo). <br>
 <br>
 _Since version 1.5.2, it's recommended to always check which version you're using via console_. The Latest version is always the most recent version and may contain experimental features that aren't fully tested yet.
 
