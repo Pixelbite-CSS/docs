@@ -1,5 +1,5 @@
 ### How it works?
-This library work on one main loop, that's repeating. Every cycle of that loop, the loop goes through every element, and it's class. The classes that were checked then proceeds into a splitter, that splits them into a smaller chunks.<br>
+**PixelbiteCSS** is designed to work on a single main loop that repeats continuously. During each cycle of this loop, the library goes through every element on the page and checks its class. The classes that have been checked are then passed through a splitter that divides them into smaller chunks. This process allows __PixelbiteCSS__ to efficiently apply styles to all relevant elements on the page without slowing down the browser or causing other performance issues. By using this approach, the library is able to provide a fast and lightweight way to manage CSS styles on a webpage.<br>
 <br>
 For example `border-1px-solid-primary` into `["border", "1px", "solid" "primary"]`:
 
@@ -14,24 +14,17 @@ For example `border-1px-solid-primary` into `["border", "1px", "solid" "primary"
 </div>
 <br>
 
-The **first split** is a __shortcut__, that is inside a variable `pixelbite.classes` and it gets added into the loop parser, that adds searched shortcut inside of `pixelbite.classes` the rest of splits.
-- The `primary` is a variable from `pixelbite.variables`, that is in **stylesheet root**
+When **PixelbiteCSS** loops through every element and its class, the classes are split into smaller chunks. The first split is a shortcut that is replaced by a value inside of `pixelbite.classes` and is added into the loop parser. The rest of the class contains style values for that first split.<br>
+<br>
+For example, if the class is `border-1px-solid-primary`, the first split is `border`, which is a shortcut for `border`, and the remaining portions `1px`, `solid` and `primary` specifies `border` properties. This way, **PixelbiteCSS** can handle complex class names and convert them into valid CSS properties efficiently.
 
 #### Multiple classes
-Framework also has multiple class system. The main loop is taking all the classes from *right to left*, meaning that __most left__ class has the highest priority.<br>
-<br>
-You can make use of **flex-boxes** to create 
+In **PixelbiteCSS**, there is a multiple class system where you can assign more than one class to an element. The main loop of the library takes all the classes of an element from _right to left_, which means that the class on the __most left has the highest priority__.
+
+This allows you to easily override and customize the styling of elements by adding or removing classes from them, without having to modify the original styles defined in the classes.
 
 ```
-~~<div class="
-!~    ~flexMiddle~
-!~    ~flexCenter~
-!~    ~bg-info~
-!~    ~br-12px~
-!~    ~fw-900~
-!~    ~fs-24px~
-!~    ~p-24px~
-~~">
+!~<div class="~flexMiddle flexCenter bg-info br-12px fw-900 fs-24px p-24px~">
 ~~    Hello world
 ~~</div>
 ```

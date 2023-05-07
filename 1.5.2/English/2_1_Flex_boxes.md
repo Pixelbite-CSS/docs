@@ -1,7 +1,7 @@
 ### Flex boxes
 Flex boxes are a useful way to arrange elements horizontally or vertically on a web page. They are particularly helpful for creating responsive designs that can adjust to different screen sizes.<br>
 <br>
-PixelbiteCSS has several pre-made classes that make it easier to work with flex boxes. These classes are designed to simplify the process of setting up flex box layouts in your HTML and CSS code.<br>
+**PixelbiteCSS** has several pre-made classes that make it easier to work with flex boxes. These classes are designed to simplify the process of setting up flex box layouts in your HTML and CSS code.<br>
 <br>
 By using the pre-made classes provided by **PixelbiteCSS**, you can avoid having to write complex CSS code to manage your flex boxes. This can save you a lot of time and effort, especially if you are new to web development or don't have a lot of experience with CSS.<br>
 <br>
