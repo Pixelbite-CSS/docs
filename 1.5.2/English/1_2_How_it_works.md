@@ -8,6 +8,7 @@ For example `border-1px-solid-primary` into `["border", "1px", "solid" "primary"
 ~~    Hello world
 ~~</div>
 ```
+
 <div class="border-1px-solid-primary">
     Hello world
 </div>
@@ -34,6 +35,7 @@ You can make use of **flex-boxes** to create
 ~~    Hello world
 ~~</div>
 ```
+
 <div class="flexMiddle flexCenter bg-info br-12px fw-900 fs-24px p-24px">Hello world</div>
 <br>
 
@@ -58,6 +60,7 @@ You can make use of **flex-boxes** to create
 ~~    </div>
 ~~</div>
 ```
+
 <div class="w-100%">
     <div class="modal w-100% p-48px-36px min666:flexDirection-column min666:flexAlignItems-flex_start max666:flexDirection-row max666:flexAlignItems-center flexCenter flexMiddle g-24px bg-white100 dark:bg-purple10 b-1px-solid-white90 dark:b-1px-solid-purple25">
         <img class="ar-1/1 w-156px br-50%" src="https://avatars.githubusercontent.com/u/83291717?v=4"/>

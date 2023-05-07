@@ -29,12 +29,12 @@ Your HTML file should now look like this:
 ~~<html lang="en">
 ~~<head>
 ~~    <meta charset="UTF-8">
-~~    ~<meta name="viewport" content="width=device-width, initial-scale=1">~
+!~    ~<meta name="viewport" content="width=device-width, initial-scale=1">~
 ~~    <title>Example</title>
-~~    ~<link rel="stylesheet" href="https://pixelbite-css.github.io/pixelbite-css/index.css">~
+!~    ~<link rel="stylesheet" href="https://pixelbite-css.github.io/pixelbite-css/index.css">~
 ~~</head>
 ~~<body>
-~~    ~<script src="https://pixelbite-css.github.io/pixelbite-css/index.js"></script>~
+!~    ~<script src="https://pixelbite-css.github.io/pixelbite-css/index.js"></script>~
 ~~</body>
 ~~</html>
 ```
