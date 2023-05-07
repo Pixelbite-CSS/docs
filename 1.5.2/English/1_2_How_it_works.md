@@ -19,7 +19,7 @@ When **PixelbiteCSS** loops through every element and its class, the classes are
 For example, if the class is `border-1px-solid-primary`, the first split is `border`, which is a shortcut for `border`, and the remaining portions `1px`, `solid` and `primary` specifies `border` properties. This way, **PixelbiteCSS** can handle complex class names and convert them into valid CSS properties efficiently.
 
 #### Multiple classes
-In **PixelbiteCSS**, there is a multiple class system where you can assign more than one class to an element. The main loop of the library takes all the classes of an element from _right to left_, which means that the class on the __most left has the highest priority__.
+In **PixelbiteCSS**, there is a multiple class system where you can assign more than one class to an element. The main loop of the library takes all the classes of an element from _left to right_, which means that the class on the __most right has the highest priority__.
 
 This allows you to easily override and customize the styling of elements by adding or removing classes from them, without having to modify the original styles defined in the classes.
 
