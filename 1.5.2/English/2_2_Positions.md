@@ -15,7 +15,6 @@ For example, if you want to position an element with a `fixed` position at the b
 ~~  Hello world!
 ~~</div>
 ```
-
 This would position the element in the bottom right corner of the page and keep it fixed in that position, even when the user scrolls the page.
 
 With the positioning classes and precise positioning properties provided by **PixelbiteCSS**, you have the tools you need to create complex and visually appealing layouts on your web pages.

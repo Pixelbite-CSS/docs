@@ -9,7 +9,6 @@ For example `border-1px-solid-primary` into `["border", "1px", "solid" "primary"
 ~~    Hello world
 ~~</div>
 ```
-
 <div class="border-1px-solid-primary">
     Hello world
 </div>
@@ -50,7 +49,6 @@ This allows you to easily override and customize the styling of elements by addi
 ~~    </div>
 ~~</div>
 ```
-
 <div class="w-100%">
     <div class="modal w-100% p-48px-36px min666:flexDirection-column min666:flexAlignItems-flex_start max666:flexDirection-row max666:flexAlignItems-center flexCenter flexMiddle g-24px bg-white100 dark:bg-purple10 b-1px-solid-white90 dark:b-1px-solid-purple25">
         <img class="ar-1/1 w-156px br-50%" src="https://avatars.githubusercontent.com/u/83291717?v=4"/>
@@ -63,7 +61,6 @@ This allows you to easily override and customize the styling of elements by addi
         </div>
     </div>
 </div>
-<br>
 
 - **~min666:~** - activates class after `under 666px width`
 - **~max666:~** - activates class after `over 666px width`
