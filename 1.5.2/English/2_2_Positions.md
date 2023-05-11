@@ -10,7 +10,6 @@ In CSS, positioning is an essential aspect of arranging elements on a web page. 
 In addition to the positioning classes, you can use the `left-[value]`, `right-[value]`, `top-[value]`, and `bottom-[value]` properties to precisely position elements on the page. These values can be used in conjunction with the position classes to achieve the desired layout.
 
 For example, if you want to position an element with a `fixed` position at the bottom corner of the page, you could use the `fixed` class along with the following properties:
-
 ```
 !~<div class="~fixed top-auto left-auto bottom-0 right-0~">
 ~~  Hello world!

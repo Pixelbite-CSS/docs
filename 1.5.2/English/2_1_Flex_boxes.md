@@ -21,7 +21,6 @@ To use flex boxes with **PixelbiteCSS**, you can add the appropriate classes to 
 - **~flexBottom~** - this class aligns child elements to the end of the cross axis
 
 To use these classes, simply add them to the relevant HTML element, like this:
-
 ```
 !~<div class='~flexColumn flexLeft g-5px~'>
 ~~    <button>Alfred</button>
@@ -34,6 +33,7 @@ To use these classes, simply add them to the relevant HTML element, like this:
 **PixelbiteCSS** dynamically creates its own classes to simplify styling elements. You can create a class by using the following values and splitting them with a dash and a specific CSS value. Dashes in values are replaced with an underscore _(ex. `flex-start` to `flex_start`)_, so a single class can be written in one line.
 
 These classes are:
+
 - **~flexDirection~** - that replaces `flex-direction`
 - **~flexWrap~** - that replaces `flex-wrap`
 - **~flexItems~** - that replaces `justify-items`

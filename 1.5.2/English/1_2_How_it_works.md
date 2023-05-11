@@ -4,7 +4,6 @@
 This process allows __PixelbiteCSS__ to efficiently apply styles to all relevant elements on the page without slowing down the browser or causing other performance issues. By using this approach, the library is able to provide a fast and lightweight way to manage CSS styles on a webpage.
 
 For example `border-1px-solid-primary` into `["border", "1px", "solid" "primary"]`:
-
 ```
 !~<div class="~border-1px-solid-primary~">
 ~~    Hello world
@@ -23,13 +22,11 @@ For example, if the class is `border-1px-solid-primary`, the first split is `bor
 In **PixelbiteCSS**, there is a multiple class system where you can assign more than one class to an element. The main loop of the library takes all the classes of an element from _left to right_, which means that the class on the __most right has the highest priority__.
 
 This allows you to easily override and customize the styling of elements by adding or removing classes from them, without having to modify the original styles defined in the classes.
-
 ```
 !~<div class="~flexMiddle flexCenter bg-info br-12px fw-900 fs-24px p-24px~">
 ~~    Hello world
 ~~</div>
 ```
-
 <div class="flexMiddle flexCenter bg-info br-12px fw-900 fs-24px p-24px">Hello world</div>
 
 - **~flexMiddle~** - flexbox class, that makes elements center horizontally
