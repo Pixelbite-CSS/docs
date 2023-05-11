@@ -1,6 +1,6 @@
 ### Initialization
-To use the PixelbiteCSS framework in your project, you need to select the version you want and add a `meta viewport` tag for scaling purposes. You can select the version by visiting the [PixelbiteCSS website](https://pixelbite-css.github.io/pixelbite-css). It is recommended to use the most recent version of the framework. However, keep in mind that minor or major version tweaks can cause major or minor inconveniences in your project.<br>
-<br>
+To use the PixelbiteCSS framework in your project, you need to select the version you want and add a `meta viewport` tag for scaling purposes. You can select the version by visiting the [PixelbiteCSS website](https://pixelbite-css.github.io/pixelbite-css). It is recommended to use the most recent version of the framework. However, keep in mind that minor or major version tweaks can cause major or minor inconveniences in your project.
+
 Here are the steps to initialize PixelbiteCSS into your project:
 
 - Choose the version of PixelbiteCSS that you want to use. You can select it [here](https://pixelbite-css.github.io/pixelbite-css).

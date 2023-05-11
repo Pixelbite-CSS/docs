@@ -1,6 +1,8 @@
 ### How it works?
-**PixelbiteCSS** is designed to work on a single main loop that repeats continuously. During each cycle of this loop, the library goes through every element on the page and checks its class. The classes that have been checked are then passed through a splitter that divides them into smaller chunks. This process allows __PixelbiteCSS__ to efficiently apply styles to all relevant elements on the page without slowing down the browser or causing other performance issues. By using this approach, the library is able to provide a fast and lightweight way to manage CSS styles on a webpage.<br>
-<br>
+**PixelbiteCSS** is designed to work on a single main loop that repeats continuously. During each cycle of this loop, the library goes through every element on the page and checks its class. The classes that have been checked are then passed through a splitter that divides them into smaller chunks.
+
+This process allows __PixelbiteCSS__ to efficiently apply styles to all relevant elements on the page without slowing down the browser or causing other performance issues. By using this approach, the library is able to provide a fast and lightweight way to manage CSS styles on a webpage.
+
 For example `border-1px-solid-primary` into `["border", "1px", "solid" "primary"]`:
 
 ```
@@ -12,10 +14,9 @@ For example `border-1px-solid-primary` into `["border", "1px", "solid" "primary"
 <div class="border-1px-solid-primary">
     Hello world
 </div>
-<br>
 
-When **PixelbiteCSS** loops through every element and its class, the classes are split into smaller chunks. The first split is a shortcut that is replaced by a value inside of `pixelbite.classes` and is added into the loop parser. The rest of the class contains style values for that first split.<br>
-<br>
+When **PixelbiteCSS** loops through every element and its class, the classes are split into smaller chunks. The first split is a shortcut that is replaced by a value inside of `pixelbite.classes` and is added into the loop parser. The rest of the class contains style values for that first split.
+
 For example, if the class is `border-1px-solid-primary`, the first split is `border`, which is a shortcut for `border`, and the remaining portions `1px`, `solid` and `primary` specifies `border` properties. This way, **PixelbiteCSS** can handle complex class names and convert them into valid CSS properties efficiently.
 
 #### Multiple classes
@@ -30,7 +31,6 @@ This allows you to easily override and customize the styling of elements by addi
 ```
 
 <div class="flexMiddle flexCenter bg-info br-12px fw-900 fs-24px p-24px">Hello world</div>
-<br>
 
 - **~flexMiddle~** - flexbox class, that makes elements center horizontally
 - **~flexCenter~** - flexbox class, that makes elements center vertically
