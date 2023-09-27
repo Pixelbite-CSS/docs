@@ -12,7 +12,8 @@
 #### Languages
 - [1.5.2](./1.5.2)
     - [English](./1.5.2/English)
-    - ...
+- [1.6.2](./1.6.2)
+    - [English](./1.6.2/English)
 - If you want your own language support, make sure to fork and create your own Directory
 
 
