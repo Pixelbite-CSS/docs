@@ -34,27 +34,34 @@ You can create a comment by using `#` before your text _(`# hello world`)_
 - Syntax: `value = "value"`, `value = [...]` or `value = {...}`
 
 #### Custom configs
-Most official custom configs can be found [here](https://github.com/Pixelbite-CSS/themes). **To import** custom theme, use section `[general]` with value `configs`:
+**PixelbiteCSS** supports multiple theme files or formats. You can create your own by creating another file inside your directory or use our official ones. Most official custom configs can be found [here](https://github.com/Pixelbite-CSS/themes).
 
-- **~single theme~**: `configs = ["https://github.com/theme-url"]`
-- **~multiple themes~**: `configs = ["https://github.com/theme-url-1", "https://github.com/theme-url-2"]`
+**To import** custom theme, use section `[general]` with variable `configs`:
+
+- **~single theme~**
+```
+~configs = ["https://github.com/theme-url"]~
+```
+- **~multiple themes~** 
+```
+configs = ["https://github.com/theme-url-1", "https://github.com/theme-url-2"]
+```
 
 If you want to create and submit your own custom made config, then you can submit it via [this link](https://github.com/orgs/Pixelbite-CSS/discussions/3).
 
 _Submission must look like this:_
-
 ```
 **Theme name**: themeName
 **Author**: @author
 **File name**: fileName.conf
 **Code**
-` ` `
+´´´
 >/code
-` ` `
+´´´
 **Link**
-` ` `
+´´´
 https://github.com
-` ` `
+´´´
 **Preview**
 ![image](https://github.com/image.png)
 ```
@@ -70,7 +77,7 @@ Config files are using 7 main categories:
 - **~[colors]~** - specific or new color variants, _only use hex color codes_
 - **~[markdowns]~** - markdowns for components, _uses patterns_
 
-##### Informations
+#### Informations category
 Has its own information and information about its creator. Result's will show inside console if sucessful.
 
 <table>
@@ -133,18 +140,18 @@ Has its own information and information about its creator. Result's will show in
 </table>
 
 ```
-~~ ~[informations]~
-~~ ~author = "author"~
-~~ ~author_;url = "https://github.com/username"~
-~~ ~description = "Lorem ipsum."~
-~~ ~theme_name = "Custom theme"~
-~~ ~theme_version = "1.0"~
-~~ ~theme_date = 1/1/1999~
-~~ ~theme_url = "https://github.com/theme-url"~
-~~ ~style = "background:black;color:white"~
+~~[~informations~]
+~~author = ~"author"~
+~~author_url = ~"https://github.com/username"~
+~~description = ~"Lorem ipsum."~
+~~theme_name = ~"Custom theme"~
+~~theme_version = ~"1.0"~
+~~theme_date = ~1/1/1999~
+~~theme_url = ~"https://github.com/theme-url"~
+~~style = ~"background:black;color:white"~
 ```
 
-##### General
+#### General category
 General section has many of essential variables inside of `pixelbite`'s object. You can change or even create variables using this section.
 
 <table>
@@ -171,7 +178,7 @@ General section has many of essential variables inside of `pixelbite`'s object. 
     <td>`fontawesome`</td>
     <td>`string`, `url`</td>
     <td>Adds custom FontAwesome link</td>
-    <td>`debug = false`</td>
+    <td>`fontawesome = "https://kit.fontawesome.com/custom.js"`</td>
   </tr>
   <tr>
     <td>`loremIpsum`</td>
@@ -189,40 +196,38 @@ General section has many of essential variables inside of `pixelbite`'s object. 
 </table>
 
 ```
-~~ ~[informations]~
-~~ ~author = "author"~
-~~ ~author_;url = "https://github.com/username"~
-~~ ~description = "Lorem ipsum."~
-~~ ~theme_name = "Custom theme"~
-~~ ~theme_version = "1.0"~
-~~ ~theme_date = 1/1/1999~
-~~ ~theme_url = "https://github.com/theme-url"~
-~~ ~style = "background:black;color:white"~
+~~[~general~]
+~~configs = ~"author"~
+~~debug = ~false~
+~~fontawesome = ~"https://kit.fontawesome.com/custom.js"~
+~~theme_name = ~"Custom theme"~
+~~theme_version = ~"1.0"~
+~~theme_date = ~1/1/1999~
+~~theme_url = ~"https://github.com/theme-url"~
+~~style = ~"background:black;color:white"~
 ```
 
-##### Components
-Implements custom components to the website _(to see what is a **component**, please read <a href="#5&lowbar;4&lowbar;Components">this docs section</a>)_.
+#### Components category
+Via this section you can create or implement **custom components** to your project or website _(to see what is a **component**, please read <a href="#5&lowbar;4&lowbar;Components">this section</a>)_.
 
-To implement the component, use `[components]` section and create your own **component name** with url implementation.
-
-```
-~~ [components]
-!~ ~customComponent = "./components/custom_component.html"~
-```
-
-To use it in your own website, use it's name in brackets _(`<customComponent></customComponent>`)_.
+**To implement** the component, use `[components]` section and create your own **component name** with url implementation.
 
 ```
-~<customComponent title="title" description="description"></customComponent>~
+~~[~components~]
+~~customComponent = ~"./components/custom_component.html"~
 ```
 
-##### Aliases
+To use it in your own website, use it's name in brackets:
+
+```
+~<customComponent></customComponent>~
+```
+
+#### Aliases category
 Creates custom so called **aliases** that replaces one **alias** into multiple _PixelbiteCSS_'s classes.
 
+#### Variables category
 
+#### Colors category
 
-##### Variables
-
-##### Colors
-
-##### Markdowns
+#### Markdowns category
