@@ -3,45 +3,22 @@
 
 _Since version 1.6.2, you can use config files as your main customization for the website. Missing a file can lead to some unwanted errors in the console, but it's not necessery._
 ```
-~[informations]
-author = "author"
-author_url = "https://github.com/author"
-description = "Custom description. Lorem ipsum."
-theme_name = "Custom name"
-theme_version = "1.0"
-theme_date = "1/1/1999"
-theme_url = "https://github.com/author/theme_url"
-
-[general]
-configs = []
-fontawesome = "https://kit.fontawesome.com/custom.js"
-
-[components]
-customComponent = "./components/custom_component.html"
-customButton = "./components/custom_button.html"
-customHeader = "./components/custom_header.html"
-
-[aliases]
-headerBorderRadius = "br-6px"
-headerRoundedButton = "flexMiddle flexCenter fs-16px c-black dark:c-white td-none g-12px b-1px-solid-black dark:b-1px-solid-white headerBorderRadius p-8px-20px"
-headerRoundedFullButton = "headerBorderRadius bg-black dark:bg-white w-44px flexMiddle flexCenter"
-headerLink = "td-none c-black dark:c-white d-block p-4px-4px fs-15px"
-
-[variables]
-primary = "#FF0000"
-secondary = "#00FF00"
-
-[colors]
-cherry = "#FA2A55"
-red = "#FF0000"
-green = "#00FF00"
-blue = "#0000FF"
-
-[markdowns]
-code2text = [
-    { pattern: /</g, replacement: "&lt;" },
-    { pattern: />/g, replacement: "&gt;" }
-]~
+!~ ~[informations]~
+~~ author = "author"
+~~ author_url = "https://github.com/author"
+~~ description = "Custom description. Lorem ipsum."
+~~ theme_name = "Custom name"
+~~ theme_version = "1.0"
+~~ theme_date = "1/1/1999"
+~~ 
+!~ ~[components]~
+~~ customComponent = "./components/custom_component.html"
+~~ customButton = "./components/custom_button.html"
+~~ customHeader = "./components/custom_header.html"
+~~ 
+!~ ~[variables]~
+~~ primary = "#FF0000"
+~~ secondary = "#00FF00"
 ```
 - _example config file_
 
@@ -64,7 +41,7 @@ Config files are using 7 main categories:
 - `[colors]` - specific or new color variants, _only use hex color codes_
 - `[markdowns]` - markdowns for components, _uses patterns_
 
-#### Informations
+##### Informations
 Has its own information and information about its creator. Result's will show inside console if sucessful.
 
 <table>
@@ -116,3 +93,5 @@ Has its own information and information about its creator. Result's will show in
   </tr>
 </tbody>
 </table>
+
+##### General
