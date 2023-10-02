@@ -34,11 +34,9 @@ You can create a comment by using `#` before your text _(`# hello world`)_
 - Syntax: `value = "value"`, `value = [...]` or `value = {...}`
 
 #### Custom configs
-Most official custom configs can be found [here](https://github.com/Pixelbite-CSS/themes).
+Most official custom configs can be found [here](https://github.com/Pixelbite-CSS/themes). **To import** custom theme, use section `[general]` with value `configs`:
 
-**To import** custom theme, use section `[general]` with value `configs`:
-
-- **~single theme~**: `configs = ["https://github.com/theme-url"]``
+- **~single theme~**: `configs = ["https://github.com/theme-url"]`
 - **~multiple themes~**: `configs = ["https://github.com/theme-url-1", "https://github.com/theme-url-2"]`
 
 If you want to create and submit your own custom made config, then you can submit it via [this link](https://github.com/orgs/Pixelbite-CSS/discussions/3).
@@ -135,15 +133,15 @@ Has its own information and information about its creator. Result's will show in
 </table>
 
 ```
-~~ [informations]
-!~ ~author = "author"~
-!~ ~author_;url = "https://github.com/username"~
-!~ ~description = "Lorem ipsum."~
-!~ ~theme_name = "Custom theme"~
-!~ ~theme_version = "1.0"~
-!~ ~theme_date = 1/1/1999~
-!~ ~theme_url = "https://github.com/theme-url"~
-!~ ~style = "background:black;color:white"~
+~~ ~[informations]~
+~~ ~author = "author"~
+~~ ~author_;url = "https://github.com/username"~
+~~ ~description = "Lorem ipsum."~
+~~ ~theme_name = "Custom theme"~
+~~ ~theme_version = "1.0"~
+~~ ~theme_date = 1/1/1999~
+~~ ~theme_url = "https://github.com/theme-url"~
+~~ ~style = "background:black;color:white"~
 ```
 
 ##### General
@@ -191,19 +189,19 @@ General section has many of essential variables inside of `pixelbite`'s object. 
 </table>
 
 ```
-~~ [informations]
-!~ ~author = "author"~
-!~ ~author_;url = "https://github.com/username"~
-!~ ~description = "Lorem ipsum."~
-!~ ~theme_name = "Custom theme"~
-!~ ~theme_version = "1.0"~
-!~ ~theme_date = 1/1/1999~
-!~ ~theme_url = "https://github.com/theme-url"~
-!~ ~style = "background:black;color:white"~
+~~ ~[informations]~
+~~ ~author = "author"~
+~~ ~author_;url = "https://github.com/username"~
+~~ ~description = "Lorem ipsum."~
+~~ ~theme_name = "Custom theme"~
+~~ ~theme_version = "1.0"~
+~~ ~theme_date = 1/1/1999~
+~~ ~theme_url = "https://github.com/theme-url"~
+~~ ~style = "background:black;color:white"~
 ```
 
 ##### Components
-Implements custom components to the website _(to see what is a **component**, please read <a href="#5_4_Components">)_.
+Implements custom components to the website _(to see what is a **component**, please read <a href="#5&lowbar;4&lowbar;Components">this docs section</a>)_.
 
 To implement the component, use `[components]` section and create your own **component name** with url implementation.
 
