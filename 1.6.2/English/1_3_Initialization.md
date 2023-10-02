@@ -33,6 +33,6 @@ Your HTML file should now look like this:
 ```
 - If you have successfully imported PixelbiteCSS into your project, you will see a welcoming message in the console that displays the current version you are running on:
 ```
-Thank you for using PixelbiteCSS :) (version 1.5.2)
+Thank you for using PixelbiteCSS :) (version 1.6)
 ```
 That's it! You have now successfully initialized PixelbiteCSS into your project.

@@ -217,6 +217,9 @@ To use it in your own website, use it's name in brackets _(`<customComponent></c
 ```
 
 ##### Aliases
+Creates custom so called **aliases** that replaces one **alias** into multiple _PixelbiteCSS_'s classes.
+
+
 
 ##### Variables
 
