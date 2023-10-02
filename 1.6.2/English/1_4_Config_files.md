@@ -68,14 +68,12 @@ Config files are using 7 main categories:
 Has its own information and information about its creator. Result's will show inside console if sucessful.
 
 <table>
-<thead>
-  <tr>
-    <th>**Variable**</th>
-    <th>**Value**</th>
-    <th>**Description**</th>
-  </tr>
-</thead>
 <tbody>
+  <tr>
+    <td>**Variable**</td>
+    <td>**Value**</td>
+    <td>**Description**</td>
+  </tr>
   <tr>
     <td>`author`</td>
     <td>`string`</td>
