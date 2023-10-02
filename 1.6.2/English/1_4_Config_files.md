@@ -3,7 +3,7 @@
 
 _Since version 1.6.2, you can use config files as your main customization for the website. Missing a file can lead to some unwanted errors in the console, but it's not necessery._
 ```
-[informations]
+~[informations]
 author = "author"
 author_url = "https://github.com/author"
 description = "Custom description. Lorem ipsum."
@@ -41,7 +41,7 @@ blue = "#0000FF"
 code2text = [
     { pattern: /</g, replacement: "&lt;" },
     { pattern: />/g, replacement: "&gt;" }
-]
+]~
 ```
 - _example config file_
 
@@ -70,9 +70,9 @@ Has its own information and information about its creator. Result's will show in
 <table>
 <tbody>
   <tr>
-    <td>**Variable**</td>
-    <td>**Value**</td>
-    <td>**Description**</td>
+    <td><b>Variable</b></td>
+    <td><b>Value</b></td>
+    <td><b>Description</b></td>
   </tr>
   <tr>
     <td>`author`</td>
