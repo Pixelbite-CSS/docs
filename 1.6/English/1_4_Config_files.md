@@ -185,14 +185,11 @@ General section has many of essential variables inside of `pixelbite`'s object. 
 - _Example:_
 ```
 ~~[~general~]
-~~configs = ~"author"~
+~~configs = ~["https://github.com/theme1", "https://github.com/theme2", ...]~
 ~~debug = ~false~
 ~~fontawesome = ~"https://kit.fontawesome.com/custom.js"~
-~~theme_name = ~"Custom theme"~
-~~theme_version = ~"1.0"~
-~~theme_date = ~1/1/1999~
-~~theme_url = ~"https://github.com/theme-url"~
-~~style = ~"background:black;color:white"~
+~~loremIpsum = ~["Lorem ipsum.", "Devatios ortum!", "Vae.", ...]~
+~~custom = ~"Hello world!"~
 ```
 
 #### Components category
