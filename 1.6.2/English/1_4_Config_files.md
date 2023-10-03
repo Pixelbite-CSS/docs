@@ -62,64 +62,66 @@ Config files are using 7 main categories:
 #### Informations category
 Has its own information and information about its creator. Result's will show inside console if sucessful.
 
-<table>
-<tbody>
-  <tr>
-    <td><b>Variable</b></td>
-    <td><b>Value</b></td>
-    <td><b>Description</b></td>
-    <td><b>Example</b></td>
-  </tr>
-  <tr>
-    <td>`author`</td>
-    <td>`string`</td>
-    <td>Author's name</td>
-    <td>`author = "author"`</td>
-  </tr>
-  <tr>
-    <td>`author&lowbar;url`</td>
-    <td>`string`, `url`</td>
-    <td>Author's profile url</td>
-    <td>`author&lowbar;url = "https://github.com/username"`</td>
-  </tr>
-  <tr>
-    <td>`description`</td>
-    <td>`string`</td>
-    <td>Description section about the theme</td>
-    <td>`description = "Lorem ipsum."`</td>
-  </tr>
-  <tr>
-    <td>`theme&lowbar;name`</td>
-    <td>`string`</td>
-    <td>Theme's name</td>
-    <td>`theme&lowbar;name = "Custom theme"`</td>
-  </tr>
-  <tr>
-    <td>`theme&lowbar;version`</td>
-    <td>`string`</td>
-    <td>Theme's version</td>
-    <td>`theme&lowbar;version = "1.0"`</td>
-  </tr>
-  <tr>
-    <td>`theme&lowbar;date`</td>
-    <td>`string`</td>
-    <td>Creation date, or update date</td>
-    <td>`theme&lowbar;date = 1/1/1999`</td>
-  </tr>
-  <tr>
-    <td>`theme&lowbar;url`</td>
-    <td>`string`, `url`</td>
-    <td>Theme's url</td>
-    <td>`theme&lowbar;url = "https://github.com/theme-url"`</td>
-  </tr>
-  <tr>
-    <td>`style`</td>
-    <td>`css`</td>
-    <td>CSS style of the information</td>
-    <td>`style = "background:black;color:white"`</td>
-  </tr>
-</tbody>
-</table>
+<div class="ofx-scroll w-100%">
+  <table class="foreach:b-1px-solid-primary">
+  <tbody>
+    <tr>
+      <td><b>Variable</b></td>
+      <td><b>Value</b></td>
+      <td><b>Description</b></td>
+      <td><b>Example</b></td>
+    </tr>
+    <tr>
+      <td>`author`</td>
+      <td>`string`</td>
+      <td>Author's name</td>
+      <td>`author = "author"`</td>
+    </tr>
+    <tr>
+      <td>`author&lowbar;url`</td>
+      <td>`string`, `url`</td>
+      <td>Author's profile url</td>
+      <td>`author&lowbar;url = "https://github.com/username"`</td>
+    </tr>
+    <tr>
+      <td>`description`</td>
+      <td>`string`</td>
+      <td>Description section about the theme</td>
+      <td>`description = "Lorem ipsum."`</td>
+    </tr>
+    <tr>
+      <td>`theme&lowbar;name`</td>
+      <td>`string`</td>
+      <td>Theme's name</td>
+      <td>`theme&lowbar;name = "Custom theme"`</td>
+    </tr>
+    <tr>
+      <td>`theme&lowbar;version`</td>
+      <td>`string`</td>
+      <td>Theme's version</td>
+      <td>`theme&lowbar;version = "1.0"`</td>
+    </tr>
+    <tr>
+      <td>`theme&lowbar;date`</td>
+      <td>`string`</td>
+      <td>Creation date, or update date</td>
+      <td>`theme&lowbar;date = 1/1/1999`</td>
+    </tr>
+    <tr>
+      <td>`theme&lowbar;url`</td>
+      <td>`string`, `url`</td>
+      <td>Theme's url</td>
+      <td>`theme&lowbar;url = "https://github.com/theme-url"`</td>
+    </tr>
+    <tr>
+      <td>`style`</td>
+      <td>`css`</td>
+      <td>CSS style of the information</td>
+      <td>`style = "background:black;color:white"`</td>
+    </tr>
+  </tbody>
+  </table>
+</div>
 
 - _Example:_
 ```
@@ -137,46 +139,48 @@ Has its own information and information about its creator. Result's will show in
 #### General category
 General section has many of essential variables inside of `pixelbite`'s object. You can change or even create variables using this section.
 
-<table>
-<tbody>
-  <tr>
-    <td><b>Variable</b></td>
-    <td><b>Value</b></td>
-    <td><b>Description</b></td>
-    <td><b>Example</b></td>
-  </tr>
-  <tr>
-    <td>`configs`</td>
-    <td>`array`</td>
-    <td>Adds another config files</td>
-    <td>`configs = ["https://github.com/theme-url", ...]`</td>
-  </tr>
-  <tr>
-    <td>`debug`</td>
-    <td>`boolean`</td>
-    <td>Enables debug mode</td>
-    <td>`debug = false`</td>
-  </tr>
-  <tr>
-    <td>`fontawesome`</td>
-    <td>`string`, `url`</td>
-    <td>Adds custom FontAwesome link</td>
-    <td>`fontawesome = "https://kit.fontawesome.com/custom.js"`</td>
-  </tr>
-  <tr>
-    <td>`loremIpsum`</td>
-    <td>`array`</td>
-    <td>Changes `loremIpsum` sentences</td>
-    <td>`loremIpsum = ["Lorem ipsum.", "Devatios ortum!", "Vae.", ...]`</td>
-  </tr>
-  <tr>
-    <td>_`custom`_</td>
-    <td>`string`, `int`, `boolean`, `array`, `object`</td>
-    <td>Creates custom subsection</td>
-    <td>`mySection = "Hello world!"`</td>
-  </tr>
-</tbody>
-</table>
+<div class="ofx-scroll w-100%">
+  <table class="foreach:b-1px-solid-primary">
+  <tbody>
+    <tr>
+      <td><b>Variable</b></td>
+      <td><b>Value</b></td>
+      <td><b>Description</b></td>
+      <td><b>Example</b></td>
+    </tr>
+    <tr>
+      <td>`configs`</td>
+      <td>`array`</td>
+      <td>Adds another config files</td>
+      <td>`configs = ["https://github.com/theme-url", ...]`</td>
+    </tr>
+    <tr>
+      <td>`debug`</td>
+      <td>`boolean`</td>
+      <td>Enables debug mode</td>
+      <td>`debug = false`</td>
+    </tr>
+    <tr>
+      <td>`fontawesome`</td>
+      <td>`string`, `url`</td>
+      <td>Adds custom FontAwesome link</td>
+      <td>`fontawesome = "https://kit.fontawesome.com/custom.js"`</td>
+    </tr>
+    <tr>
+      <td>`loremIpsum`</td>
+      <td>`array`</td>
+      <td>Changes `loremIpsum` sentences</td>
+      <td>`loremIpsum = ["Lorem ipsum.", "Devatios ortum!", "Vae.", ...]`</td>
+    </tr>
+    <tr>
+      <td>_`custom`_</td>
+      <td>`string`, `int`, `boolean`, `array`, `object`</td>
+      <td>Creates custom subsection</td>
+      <td>`mySection = "Hello world!"`</td>
+    </tr>
+  </tbody>
+  </table>
+</div>
 
 - _Example:_
 ```
@@ -214,9 +218,9 @@ Creates custom so called **aliases** that replaces _multiple PixelbiteCSS classe
 ```
 Then you can use **alias** in your code:
 ```
-<div class~"customAlias"~>
-    Hello world
-</div>
+!~<div class~"customAlias"~>
+~~    Hello world
+~~</div>
 ```
 
 #### Variables category
@@ -224,46 +228,48 @@ Via this section, you can change **root** variables used in CSS. Or you can impl
 
 **Root variables:** 
 
-<table>
-<tbody>
-  <tr>
-    <td><b>Variable</b></td>
-    <td><b>Default value</b></td>
-  </tr>
-  <tr>
-    <td>`primary`</td>
-    <td>`#5920B0`</td>
-  </tr>
-  <tr>
-    <td>`secondary`</td>
-    <td>`#9575C6`</td>
-  </tr>
-  <tr>
-    <td>`success`</td>
-    <td>`#60D130`</td>
-  </tr>
-  <tr>
-    <td>`danger`</td>
-    <td>`#D13030`</td>
-  </tr>
-  <tr>
-    <td>`warning`</td>
-    <td>`#DFAF2A`</td>
-  </tr>
-  <tr>
-    <td>`info`</td>
-    <td>`#26C7E7`</td>
-  </tr>
-  <tr>
-    <td>`fontPrimary`</td>
-    <td>`'Poppins', sans-serif`</td>
-  </tr>
-  <tr>
-    <td>`fontMonospace`</td>
-    <td>`'Fira Mono', monospace`</td>
-  </tr>
-</tbody>
-</table>
+<div class="ofx-scroll w-100%">
+  <table class="foreach:b-1px-solid-primary">
+  <tbody>
+    <tr>
+      <td><b>Variable</b></td>
+      <td><b>Default value</b></td>
+    </tr>
+    <tr>
+      <td>`primary`</td>
+      <td>`#5920B0`</td>
+    </tr>
+    <tr>
+      <td>`secondary`</td>
+      <td>`#9575C6`</td>
+    </tr>
+    <tr>
+      <td>`success`</td>
+      <td>`#60D130`</td>
+    </tr>
+    <tr>
+      <td>`danger`</td>
+      <td>`#D13030`</td>
+    </tr>
+    <tr>
+      <td>`warning`</td>
+      <td>`#DFAF2A`</td>
+    </tr>
+    <tr>
+      <td>`info`</td>
+      <td>`#26C7E7`</td>
+    </tr>
+    <tr>
+      <td>`fontPrimary`</td>
+      <td>`'Poppins', sans-serif`</td>
+    </tr>
+    <tr>
+      <td>`fontMonospace`</td>
+      <td>`'Fira Mono', monospace`</td>
+    </tr>
+  </tbody>
+  </table>
+</div>
 
 **To create your own variable**, use `[variables]` section and choose name:
 ```
@@ -272,9 +278,9 @@ Via this section, you can change **root** variables used in CSS. Or you can impl
 ```
 To use it, simply add variable after class split:
 ```
-<div class=~"c-customVariable"~>
-    Hello world
-</div>
+!~<div class=~"c-customVariable"~>
+~~    Hello world
+~~</div>
 ```
 
 **To implement custom font**, use again `[variables]` section and choose name _(please use `url()`)_:
@@ -284,9 +290,9 @@ To use it, simply add variable after class split:
 ```
 To use it, simply add variable after class split:
 ```
-<div class=~"ff-fontCustom"~>
-    Hello world
-</div>
+!~<div class=~"ff-fontCustom"~>
+~~    Hello world
+~~</div>
 ```
 
 #### Colors category
