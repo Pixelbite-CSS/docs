@@ -6,10 +6,12 @@
 
 #### Information
  - **Name:** docs
- - **Version:** 1.0.0
+ - **Version:** 1.6
  - **Website:** https://pixelbite-css.github.io
  
 #### Languages
+- [1.4.2](./1.4.2)
+    - [English](./1.4.2/English) ([online](https://pixelbite-css.github.io/docs-repo/1.4.2/English))
 - [1.5.2](./1.5.2)
     - [English](./1.5.2/English)
 - [1.6.2](./1.6)
@@ -18,10 +20,10 @@
 
 
 #### Download Content
- - **License:** [LICENSE](https://github.com/Pixelbite-CSS/template/blob/main/LICENSE) ([download](https://raw.githubusercontent.com/Pixelbite-CSS/template/main/LICENSE))
+ - **License:** [LICENSE](https://github.com/Pixelbite-CSS/docs-repo/blob/main/LICENSE) ([download](https://raw.githubusercontent.com/Pixelbite-CSS/docs-repo/main/LICENSE))
 
 #### Legal actions
- - Please, before using or cloning this project, read our [License Terms](https://github.com/Pixelbite-CSS/template/blob/main/LICENSE).
+ - Please, before using or cloning this project, read our [License Terms](https://github.com/Pixelbite-CSS/docs-repo/blob/main/LICENSE).
  - **By cloning, you are agreeing to the license and its intent.**
 
 ##### Copyright © 2023 Pixelbite CSS. All rights reserved.
