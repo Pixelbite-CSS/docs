@@ -193,7 +193,7 @@ General section has many of essential variables inside of `pixelbite`'s object. 
 ```
 
 #### Components category
-Via this section you can create or implement **custom components** to your project or website _(to see what is a **component**, please read <a href="#5&lowbar;4&lowbar;Components">this section</a>)_.
+Via this section you can create or implement **custom components** to your project or website _(to see what is a **component**, please read <a href="https://pixelbite-css.github.io/docs/3_12_Components.html">this section</a>)_.
 
 **To implement** the component, use `[components]` section and create your own **component name** with url implementation.
 ```
