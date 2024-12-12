@@ -1,0 +1,29 @@
+${`
+    let classes_object = pixelbite.classes
+    let table_builder = "<table>" +
+        "<tr>" +
+            "<th>Pixelbite Class Shortcut</th>" +
+            "<th>Replace CSS</th>" +
+            "<th>Additional CSS</th>" +
+        "</tr>"
+
+    for (let clazz = 0; clazz < classes_object.length; clazz++) {
+        table_builder += "<tr>"
+        for (let i = 0; i < 3; i++) {
+            if (i === 2) {
+                if (!classes_object[clazz][i]) {
+                    table_builder += "<td></td>"
+                } else {
+                    table_builder += "<td>`" + classes_object[clazz][1] + ": " + classes_object[clazz][2] + "(...)`</td>"
+                }
+            } else {
+                table_builder += "<td>`" + classes_object[clazz][i] + "`</td>"
+            }
+        }
+        table_builder += "</tr>"
+    }
+
+    table_builder += "</table>"
+
+    return table_builder
+`}
